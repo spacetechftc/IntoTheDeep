@@ -30,6 +30,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.openftc:apriltag:2.1.0'
     implementation project(':FtcRobotController')
     annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
 
